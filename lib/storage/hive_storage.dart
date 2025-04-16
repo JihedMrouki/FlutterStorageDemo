@@ -21,6 +21,7 @@ class HiveStorage {
   }
 
   Future<void> deleteText(String key) async {
+    // Hive implementation
     final box = await Hive.openBox(boxName);
     await box.delete(key);
   }

@@ -374,13 +374,13 @@ packages:
     source: hosted
     version: "1.5.0"
   source_span:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
       name: source_span
-      sha256: "254ee5351d6cb365c859e20ee823c3bb479bf4a293c22d17a9f1bf144ce86f7c"
+      sha256: "53e943d4206a5e30df338fd4c6e7a077e02254531b138a15aec3bd143c1a8b3c"
       url: "https://pub.dev"
     source: hosted
-    version: "1.10.1"
+    version: "1.10.0"
   sqflite:
     dependency: "direct main"
     description:

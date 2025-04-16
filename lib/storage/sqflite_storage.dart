@@ -4,6 +4,11 @@ import 'package:path/path.dart';
 class SQLiteStorage {
   static Database? _database;
 
+  Future<String> getDatabasePath() async {
+    final db = await database;
+    return db.path;
+  }
+
   Future<Database> get database async {
     if (_database != null) return _database!;
     _database = await _initDatabase();
