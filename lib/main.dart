@@ -21,6 +21,7 @@ class StorageDemoApp extends StatelessWidget {
       routes: {
         '/hive': (context) => const HiveScreen(),
         '/realm': (context) => const RealmScreen(),
+        // REALM WINDOWS CERTIFICATE ISSUE LINK : https://github.com/realm/realm-dart/issues/1822
         '/sqflite': (context) => const SQLiteScreen(),
       },
     );
