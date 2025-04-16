@@ -13,7 +13,6 @@ class RealmScreen extends StatefulWidget {
 class _RealmScreenState extends State<RealmScreen> {
   late Realm realm;
   final _taskController = TextEditingController();
-
   final _personNameController = TextEditingController();
   final _personAgeController = TextEditingController();
 
