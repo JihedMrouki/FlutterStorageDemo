@@ -17,13 +17,13 @@ class HomeScreen extends StatelessWidget {
               color: Colors.orange,
               route: '/hive',
             ),
-            // const SizedBox(height: 20),
-            // _buildStorageButton(
-            //   context,
-            //   title: 'Realm',
-            //   color: Colors.purple,
-            //   route: '/realm',
-            // ),
+            const SizedBox(height: 20),
+            _buildStorageButton(
+              context,
+              title: 'Realm',
+              color: Colors.purple,
+              route: '/realm',
+            ),
             const SizedBox(height: 20),
             _buildStorageButton(
               context,

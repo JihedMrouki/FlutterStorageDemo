@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:realm_hive_sqflite/screens/hive_screen.dart';
 import 'package:realm_hive_sqflite/screens/sqflite_screen.dart';
+import 'package:realm_hive_sqflite/screens/updated_realm_screen.dart';
 import 'screens/home_screen.dart';
 
 void main() async {
@@ -19,7 +20,7 @@ class StorageDemoApp extends StatelessWidget {
       home: const HomeScreen(),
       routes: {
         '/hive': (context) => const HiveScreen(),
-        // '/realm': (context) => const RealmScreen(),
+        '/realm': (context) => const RealmScreen(),
         '/sqflite': (context) => const SQLiteScreen(),
       },
     );
