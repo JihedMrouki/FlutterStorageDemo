@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:realm_hive_sqflite/screens/hive_screen.dart';
+import 'package:realm_hive_sqflite/screens/realm_screen.dart';
 import 'package:realm_hive_sqflite/screens/sqflite_screen.dart';
-import 'package:realm_hive_sqflite/screens/updated_realm_screen.dart';
 import 'screens/home_screen.dart';
 
 void main() async {
